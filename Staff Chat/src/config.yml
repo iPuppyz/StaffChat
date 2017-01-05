@@ -1,0 +1,6 @@
+chat:
+  token: '@' 
+  #Which icon should be used at the start of a message to make it be sent in Staff Chat? 
+  
+  format: '&6STAFF&r: &9%name% &r> %chat%' 
+  #Available place-holders: %name% (sender name), %chat% (sender's message/chat)

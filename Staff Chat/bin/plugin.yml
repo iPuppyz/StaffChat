@@ -1,0 +1,6 @@
+name: StaffChat
+main: me.puppyz.staffchat.Main
+version: 1.0
+commands:
+ staffchat:
+  description: Main StaffChat command!
