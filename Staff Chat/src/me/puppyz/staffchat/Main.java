@@ -93,11 +93,11 @@ public class Main extends JavaPlugin implements Listener {
                 while(var6.hasNext()) {
                     Player player = (Player)var6.next();
                     if(player.hasPermission("staffchat.chat")) {
-                        String configfile = config.getString("chat.format");
-                        String configfile1 = ChatColor.translateAlternateColorCodes('&', configfile);
-                        String configfile2 = configfile1.replaceAll("%name%", e.getPlayer().getDisplayName());
-                        String configfile3 = configfile2.replaceAll("%chat%", toBe);
-                        player.sendMessage(configfile3);
+                        String messageGetter = config.getString("chat.format");
+                        String messageGetter1 = ChatColor.translateAlternateColorCodes('&', messageGetter);
+                        String messageGetter2 = messageGetter1.replaceAll("%name%", e.getPlayer().getDisplayName());
+                        String messageGetter3 = messageGetter2.replaceAll("%chat%", toBe);
+                        player.sendMessage(messageGetter3);
                     }
                 }
             }
