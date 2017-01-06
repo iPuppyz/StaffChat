@@ -47,7 +47,7 @@ public class Main extends JavaPlugin implements Listener {
                     return true;
                 }
 
-                if(sender.hasPermission("staffchat.enable") && args[0].equals("off")) {
+                if(sender.hasPermission("staffchat.disable") && args[0].equals("off")) {
                     if(!config.getBoolean("enabled")) {
                         sender.sendMessage(ChatColor.DARK_RED + "StaffChat is already off!");
                         return true;
