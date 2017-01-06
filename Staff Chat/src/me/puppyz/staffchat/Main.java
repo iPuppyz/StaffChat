@@ -30,7 +30,7 @@ public class Main extends JavaPlugin implements Listener {
         if(cmd.getName().equalsIgnoreCase("staffchat")) {
             FileConfiguration config = this.getConfig();
             if(args.length == 0) {
-                sender.sendMessage("You\'re runnning StaffChat 1.0 by iPuppyz!");
+                sender.sendMessage("StaffChat V1.0 by iPuppyz!");
                 return true;
             }
 
